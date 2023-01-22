@@ -240,7 +240,32 @@ body{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    width: 50%;
+    width: 17%;
     margin-top: 60px;
     
+}
+
+.fourth-right{
+    justify-content: center;
+    width: 50%;
+    margin-left: 241px;
+}
+
+.fourth-section{
+    display: flex;
+    flex-direction: row;
+    margin-top: 60px;
+    gap: 20px;
+}
+
+.r1{
+    justify-content: center;
+    gap: 20px;
+}
+
+/* fifth section */
+.fifth-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px
 }
