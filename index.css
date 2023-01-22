@@ -37,7 +37,7 @@ body{
     gap: 25px;
     font-weight: bolder;
     color:white;
-    margin-top: 18px;
+    padding-top: 18px;
     justify-content: center;
 }
 
@@ -141,7 +141,7 @@ body{
     display: flex;
     flex-direction: row;
     gap: 40px;
-    margin-top: 120px;
+    padding-top: 120px;
     width: 70%;
     
     justify-content: center;
@@ -154,7 +154,7 @@ body{
 }
 
 .col-left{
-    margin-top: 55px;
+    padding-top: 55px;
 }
 
 .column2{
@@ -201,7 +201,7 @@ body{
     flex-direction: row;
     gap: 150px;
     justify-content: center;
-    margin-top: 50px;
+    padding-top: 50px;
 }
 
 /* fourth section  */
@@ -241,7 +241,7 @@ body{
     flex-direction: column;
     justify-content: center;
     width: 17%;
-    margin-top: 60px;
+    padding-top: 60px;
     
 }
 
@@ -254,7 +254,7 @@ body{
 .fourth-section{
     display: flex;
     flex-direction: row;
-    margin-top: 60px;
+    padding-top: 60px;
     gap: 20px;
 }
 
@@ -267,5 +267,113 @@ body{
 .fifth-section{
     display: flex;
     flex-direction: row;
-    gap: 30px
+    gap: 30px;
+    padding-top: 60px;
+}
+
+.fifth-left{
+    width: 60%;
+}
+
+.fifth-right{
+    width: 40%;
+}
+
+/* sixth section */
+.sixth-section{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    padding-top: 60px;
+    justify-content: center;
+}
+
+.sixth-right{
+    width: 60px;
+}
+
+.sixth-left{
+    width: 30%;
+}
+
+/* seventh section */
+.seventh-section{
+    background: url("Rectangle 5.png") no-repeat #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 60px;
+}
+
+.seventh-left{
+    padding-top: 400px;
+}
+
+.seventh-right{
+    padding-top: 150px;
+}
+
+.customer{
+    font-weight: 800;
+    font-size: 40px;
+    color: white;
+}
+
+.cust{
+    color: #5C0E62;
+}
+
+.span-3{
+    font-weight: 700;
+    font-size: 16px;
+}
+
+.r2{
+    align-items: center;
+    gap: 140px;
+}
+
+/* eighth section */
+
+.eighth-section{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    justify-content: center;
+}
+
+.wait{
+    font-size: 800;
+    font-weight: 40px;
+    color: #5C515C;
+}
+
+.waiting{
+    color: #5C0E62;
+}
+
+.btn-4{
+    width: 150px;
+    height: 40px;
+    background-color: #FFBC51;
+    color: white;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.r3{
+    width: 80%;
+    position: relative;
+    justify-content: center;
+    top: -22px;
+}
+
+.divi{
+    background: white;
+    display: flex;
+    flex-direction: row;
+    gap: 60px;
+    text-align: center;
+    justify-content: center;
+    width: 70%;
 }
