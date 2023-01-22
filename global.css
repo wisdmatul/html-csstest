@@ -1,0 +1,53 @@
+:root {
+    /* fonts */
+    --font-proxima-nova: "Proxima Nova";
+    --font-exo: Exo;
+    --font-nanum-brush-script: "Nanum Brush Script";
+    --font-open-sans: "Open Sans";
+  
+    /* font sizes */
+    --font-size-3xs: 12px;
+    --font-size-2xs: 12.78px;
+    --font-size-xs: 14px;
+    --font-size-sm: 14.61px;
+    --font-size-base: 16px;
+    --font-size-lg: 18px;
+    --font-size-xl: 22px;
+    --font-size-2xl: 24px;
+    --font-size-3xl: 36px;
+    --font-size-4xl: 36.53px;
+    --font-size-5xl: 40px;
+    --font-size-6xl: 66px;
+  
+    /* Colors */
+    --color-gray-100: #f7f3fa;
+    --color-gray-200: #857885;
+    --color-gray-300: #756f6f;
+    --color-gray-400: #50609e;
+    --color-gray-500: #5c5e6e;
+    --color-gray-600: #5c515c;
+    --color-gray-700: #210933;
+    --color-gray-800: rgba(171, 163, 163, 0.2);
+    --color-white: #fff;
+    --color-orange-100: #ffbc51;
+    --color-orange-200: rgba(255, 188, 81, 0.25);
+    --color-purple-100: #591567;
+    --color-purple-200: #5c0e62;
+    --color-brown: #e23434;
+  
+    /* Gaps */
+    --gap-2xs: 2px;
+    --gap-xs: 4px;
+    --gap-sm: 8px;
+    --gap-md: 10px;
+    --gap-lg: 16px;
+    --gap-xl: 36px;
+  
+    /* border radiuses */
+    --br-xs: 4px;
+    --br-sm: 5px;
+    --br-md: 6px;
+    --br-lg: 7px;
+    --br-xl: 10px;
+  }
+  
