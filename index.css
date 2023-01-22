@@ -4,12 +4,12 @@ body{
 }
 
 .first-section{
-  position: absolute;
+  /* position: absolute; */
   padding-top: 30px;
   padding-right: 210px;
   padding-left: 210px;
   padding-bottom: 30px;
-  background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%);
+  background: linear-gradient(99.22deg, #5C0E62 1.27%, #00B5D0 92.23%); 
 }
 
 .title-tag{
@@ -93,12 +93,12 @@ body{
 
 .content-right{
   position: absolute;
-  height: 688.13px;
-  width: 1222.83px;
-  top: 93.97%;
-  right: 76.07%;
+  height: fit-content;
+  width: 100%;
+  top: 1rem;
+  left: 0;
   bottom: 5.08%;
-  left: 13.73%;
+  
   color: var(--color-gray-200);
 }
 
@@ -116,4 +116,41 @@ body{
   left: 271.58px;
   width: 1222.83px;
   height: 688.13px;
+}
+
+.container-left{
+  margin-left: 175px;
+  margin-top: 600px;
+  margin-right: 718px;
+  margin-bottom: 3151px;
+  width: 607px;
+  height: 424px;
+  display: flex;
+  justify-content: space-between;
+  gap: 30px;
+}
+
+.head-1{
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 28.9px;
+  color: #5C5E6E;
+}
+
+.easy-access-box, .use-connect-box, .cashflow-visibility, .manage-invoicing{
+  width: 280px;
+  height: 164px;
+  border-left: 2px solid black;
+}
+
+.para-1{
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20px;
+  color: #756F6F;
+}
+
+.second-section{
+  margin-top: 0;
+  display: flex;
 }
