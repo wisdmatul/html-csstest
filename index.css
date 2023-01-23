@@ -377,3 +377,51 @@ body{
     justify-content: center;
     width: 70%;
 }
+
+/* ninth section */
+.ninth-section{
+    background-color: #210933;
+    margin-top: -60px;
+    padding-top: 80px;
+}
+
+.r4{
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    color: #857885;
+    font-size: 14px;
+    
+}
+.nine-1{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.copyright{
+    font-weight: 700;
+   
+}
+
+.nine-2, .nine-3, .nine-4{
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.li2{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.ser{
+    justify-content: center;
+    margin-right: 108px;
+    text-align: center;
+    font-weight: 700;
+}
